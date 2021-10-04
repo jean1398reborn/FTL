@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- very epic library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<html>
+	<a name="top"></a>
+	<head>
+		<title>Faster Than Light</title>
+
+		<meta charset="UTF-8">
+
+		<meta name="description" content=" Faster Than Light provides information on the science fiction topic of faster than light transportation methods">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+		<meta name="keywords"  content="scifi,ftl,warp,warpdrives,fast,space,technology">
+
+		<meta name="author" content="Jean Du Plessis">
+
+
+		<link rel="stylesheet" href="main.css">
+
+		<link rel="shortcut icon" type="image/png" href="icons/favicon.png">
+		<section class="firstpage">
+					<!--Selecter header thing-->
+					<img class="logo" src= "FTL/logo.png">
+					<div class="headerbuttons">
+						<a href="#wormholes">Worm Holes</a>
+						<a class="two" href="#warpdrives">Warp Drives</a>
+						<a class="three" href="#footer">Footer</a>
+						<img class='hmenu' src="icons/menu.png">
+					</div>
+					<!--Faster than light image-->
+					<img class="frontpageimg" id="logo" src="Asset 4.png"></div>
+					<!--If it works it works-->
+					<div class="scuffedextension">
+						<h1>BE EXTENDED</h1>
+					</div>
+		</section class="firstpage">
+	</head>
+	<body>
+		<section class="hurdur">
+			<h1>BE EXTENDED</h1>
+		</section>
+		<section class="wormy">
+			<a name="wormholes"></a>
+			<div class="bouncer">
+              <div class="enslaved">
+              	<h1>WORM</h1>
+              	<h2>HOLES</h2>
+              	<div class="enslayvd">
+              		<a class="linkson" href="worms.html"><span>DISCOVER<span></a>
+              	</div>
+              </div>
+              	<img class="liney" src="liney.png">
+              </div>
+              <video autoplay muted loop class='fixed-prlx-vid'>
+                  <source src="spinny.mp4" type="video/mp4">
+              </video>
+		</section>
+		<section class="warpy">
+			<div class="bouncer">
+			<h1 class="topper">topper</h1>
+			<a name="warpdrives"></a>
+              <div class="hayson">
+              	<h1>WARP</h1>
+              	<h2>DRIVES</h2>
+              	<div class="hanson">
+              		<a class="linkson" href="warps.html"><span>EXPLORE<span></a>
+              	</div>
+              </div>
+              	<img class="liney2" src="liney.png">
+              </div>
+              <h2 class="scuffedextension2">extendor</h2>
+		</section>
+		<footer>
+			<h1>generic</h1>
+			<a name="footer"></a>
+			<p class="ftlfirst">FTL © 2020</p>
+			<a href="#top">BACK TO TOP</a>
+			<a href="references.html">REFERENCES</a>
+			<a href="https://github.com/jean1398reborn/FTL">REPOSITORY</a>
+			<h1 class="scuffedextension3">extend0r</h1>
+
+		</footer>
+		<script>
+		$(document).ready(function() {
+        	$(window).scroll(function(event) {
+            	let scroll = $(this).scrollTop();
+            	let opacity = 1 - (scroll / 200);
+                $('.headerbuttons > p').css('opacity', opacity);
+                $('.wormy').css('opacity', 1+ (scroll / 1000));
+                $('.logo').css('opacity', opacity);
+                $('.headerbuttons').css('opacity', opacity);
+        });
+    });
+</script>
+	</body>
+</html>

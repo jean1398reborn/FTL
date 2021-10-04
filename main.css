@@ -1,0 +1,242 @@
+* { margin: 0; padding: 0; scroll-behavior: smooth;}
+@font-face{
+	font-family: "azonix";
+	src:url("fonts/azonix.otf");
+}
+@font-face{
+	font-family: "chalker";
+	src:url("fonts/Chalkduster.ttf");
+}
+@font-face{
+	font-family: "nice";
+	src:url("fonts/cumforta.ttf");
+}
+html {
+	background-color: rgb(0,0,0);
+}
+.logo{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 1.2%;
+	width: 12%;
+	height: 12%;
+	margin-left: 2%;
+	margin-top: 1.2%;
+	display: inline;
+	opacity: 1;
+}
+.headerbuttons{
+	font-family: "azonix";
+	color: white;
+	display: inline;
+	font-size: 90%;
+	font-weight: 30;
+	vertical-align: 120%;
+	opacity: 1;
+}
+footer > a,p{
+	color: white;
+	font-family: "nice";
+	font-size: 110%;
+	text-decoration: none;
+	display: inline;
+}
+.ftlfirst{
+	margin-left: 25%;
+}
+footer > a{
+	margin-left: 3%;
+}
+footer > a:hover{
+	text-decoration: underline;
+}
+.headerbuttons > a{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 4.6%;
+	display: inline;
+	margin-left: 2.4%;
+	opacity: 1;
+	color: white;
+	text-decoration: none;
+}
+.headerbuttons > a:hover{
+	text-decoration: underline;
+}
+.dropdown{
+	font-family: "azonix";
+	color: rgb(191,191,191);
+}
+.hmenu{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 4.6%;
+	display: inline;
+	width: 1.2%;
+	height: 1.2%;
+	margin-left: 52%;
+}
+.frontpageimg{
+	animation: bouncey 3s infinite  alternate;
+	animation-timing-function: ease;
+	width: 75%;
+	height: 75%;
+	margin-left: 10%;
+	margin-top: 8%;
+}
+.hurdur > h1{
+	background-color:black;
+	user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    color: rgba(0,0,0,0);
+}
+.wormy{
+	opacity: 0;
+}
+.firstpage{
+	background-image: url("bg.png");
+	background-size: 2% 2%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.scuffedextension{
+	color: rgba(0,0,0,0);
+	margin-top: 2%;
+	user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+.topper{
+	color: rgba(0,0,0,0);
+	user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+.scuffedextension2{
+	color: rgba(0,0,0,0);
+	margin-top: 8%;
+	user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+.scuffedextension3 	{
+	color: rgba(0,0,0,0);
+	margin-top: 1%;
+	user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+.fixed-prlx-vid {
+    opacity: 1;
+    width: 100vw;
+    height: auto;
+    z-index: 0;
+    position: relative;
+}
+.gooday{
+	margin-top:6999%;
+}	
+.liney{
+	z-index: 2;
+	left: 97vw;
+	top: 140vh;
+	position: absolute;
+}
+.liney2{
+	margin-left: 2vw;
+	margin-top: 48.5vh;
+}
+.enslaved > h1{
+	z-index: 3;
+	font-family: "azonix";
+	font-size: 500%;
+	left: 78vw;
+	top: 140vh;
+	position: absolute;
+	color: white;
+}
+.hayson > h1{
+	font-family: "azonix";
+	font-size: 570%;
+	position: absolute;
+	top: 224.5vh;
+	left: 3.4vw;
+	color:white;
+}
+.hayson > h2{
+	font-family: "azonix";
+	font-size: 400%;
+	position: absolute;
+	top: 233vh;
+	left: 3.6vw;
+	color:white;
+}
+.hanson{
+	font-family: "nice";
+	font-size: 190%;
+	position: absolute;
+	top: 240vh;
+	left: 3.6vw;
+	border: solid white;
+	padding: 1vw 1vh;
+}
+.linkson{
+	text-decoration: none;
+	color: white;
+}
+.hanson:hover{
+	border: solid white 4px;
+}
+.warpy{
+	background-image: url("hanson.png");
+	background-size: 2% 2%;
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100%;
+    width: 100%;
+}
+.enslaved > h2{
+	z-index: 3;
+	font-family: "azonix";
+	font-size: 400%;
+	left: 79vw;
+	top: 148.5vh;
+	position: absolute;
+	color: white;
+}
+.enslayvd > a{
+	z-index: 3;
+	font-family: "nice";
+	font-size: 200%;
+	left: 81.5vw;
+	top: 156vh;
+	position: absolute;
+	color: white;
+	border: solid white;
+	padding: 1vw 1vh;
+}
+.enslayvd > a:hover{
+	border: solid white 4px;
+}
+@keyframes bouncey{
+	0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes liney{
+	0% { transform: translateX(0); }
+	100% { transform: translateX(1000px); }
+}
